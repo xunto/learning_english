@@ -23,7 +23,7 @@ public class Database {
 
             new IrregularVerb("run", "ran", "run", "run that marathon"),
 
-            new IrregularVerb("bet", "bet", "bet", "bet on that race (Hint:"),
+            new IrregularVerb("bet", "bet", "bet", "bet on that race"),
 
             new IrregularVerb("teach", "taught", "taught", "teach that class"),
 
