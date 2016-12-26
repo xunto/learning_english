@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Learning English</string>
+    <string name="first_form">Первая форма</string>
+    <string name="second_form">Вторая форма</string>
+    <string name="third_form">Третья форма</string>
+    <string name="check">Проверить</string>
+    <string name="next">Следующий</string>
+    <string name="complete">Завершить</string>
+    <string name="example">Пример</string>
+    <string name="correct_percent">Процент правильных ответов</string>
+    <string name="start">Начать</string>
+    <string name="stats_key">com.anna.learningenglish.stats</string>
+</resources>
