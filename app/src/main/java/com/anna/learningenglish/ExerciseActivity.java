@@ -77,7 +77,7 @@ public class ExerciseActivity extends AppCompatActivity {
 
         exampleTextView.setText(verb.getExample());
 
-        progress.setCurrent(exercise.getCurrent());
+        progress.setCurrent(exercise.getCurrent() + 1);
         progress.setSize(exercise.getAmount());
 
         this.nextQuestionButton.setVisibility(View.GONE);
@@ -89,7 +89,7 @@ public class ExerciseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        this.exercise = new IrregularVerbExercise(3);
+        this.exercise = new IrregularVerbExercise(10);
 
         this.progress = (ProgressView) this.findViewById(R.id.progressTextView);
         this.exampleTextView = (TextView) this.findViewById(R.id.exampleTextView);
@@ -100,6 +100,7 @@ public class ExerciseActivity extends AppCompatActivity {
 
         this.nextQuestionButton = (Button) this.findViewById(R.id.nextQuestionButton);
         this.nextQuestionButton.setVisibility(View.GONE);
+
         this.checkAnswerButton = (Button) this.findViewById(R.id.checkAnswerButton);
         this.checkAnswerButton.setVisibility(View.GONE);
 
