@@ -137,7 +137,7 @@ public class Database {
 
             new IrregularVerb("see", "saw", "seen", "see that concert"),
 
-            new IrregularVerb("read", "read ", "read ", "read that story"),
+            new IrregularVerb("read", "read", "read", "read that story"),
 
             new IrregularVerb("bite", "bit", "bitten", "bite into that wormy apple"),
 
@@ -193,7 +193,7 @@ public class Database {
 
             new IrregularVerb("set", "set", "set", "set the table"),
 
-            new IrregularVerb("was", " were", "been", "be so rude"),
+            new IrregularVerb("be", "was", "been", "be so rude"),
 
             new IrregularVerb("sing", "sang", "sung", "sing that ditty"),
 
